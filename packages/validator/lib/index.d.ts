@@ -1,1 +1,1 @@
-export { default as validateSchema } from "./schema-validator";
+export { default as validateSchema, validateSchemaZod, } from "./schema-validator";
