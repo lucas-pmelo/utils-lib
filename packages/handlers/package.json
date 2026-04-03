@@ -1,0 +1,35 @@
+{
+  "name": "@lucas-pmelo/handlers",
+  "version": "0.0.3",
+  "description": "Handlers helpers",
+  "author": "Lucas Melo",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucas-pmelo/utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lucas-pmelo/utils/issues"
+  },
+  "scripts": {
+    "test": "bun test --coverage",
+    "tsc": "tsc"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21"
+  },
+  "dependencies": {
+    "@lucas-pmelo/logger": "0.0.6",
+    "express": "^4.21.0"
+  }
+}

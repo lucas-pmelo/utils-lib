@@ -1,0 +1,1 @@
+{"version":3,"file":"precondition-failed-error.js","sourceRoot":"","sources":["../../src/errors/precondition-failed-error.ts"],"names":[],"mappings":";;;;;AAAA,4DAAmC;AAEnC,MAAqB,uBAAwB,SAAQ,mBAAQ;IAC3D,YAAY,UAAkB,yBAAyB;QACrD,KAAK,CACH;YACE,MAAM,EAAE,OAAO;SAChB,EACD,GAAG,CACJ,CAAC;IACJ,CAAC;CACF;AATD,0CASC"}

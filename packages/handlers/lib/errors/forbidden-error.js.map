@@ -1,0 +1,1 @@
+{"version":3,"file":"forbidden-error.js","sourceRoot":"","sources":["../../src/errors/forbidden-error.ts"],"names":[],"mappings":";;;;;AAAA,4DAAmC;AAEnC,MAAqB,cAAe,SAAQ,mBAAQ;IAClD,YAAY,UAAkB,gBAAgB;QAC5C,KAAK,CACH;YACE,MAAM,EAAE,OAAO;SAChB,EACD,GAAG,CACJ,CAAC;IACJ,CAAC;CACF;AATD,iCASC"}
