@@ -2,13 +2,13 @@ import Joi from "joi";
 import { ZodError, ZodType } from "zod";
 
 interface Result<T> {
-  errors?: ValidationError<T>[];
+  errors?: ValidationError[];
   data?: T;
 }
 
-interface ValidationError<T> {
+interface ValidationError {
   name: string;
-  value: T | undefined;
+  value: any;
   reason: string;
 }
 
@@ -21,9 +21,9 @@ const validateSchema = <T>(schema: Joi.ObjectSchema<T>, data: T): Result<T> => {
   const hasError = !!error?.details?.length;
 
   if (hasError) {
-    const errors: ValidationError<T>[] = error!.details.map((err) => ({
+    const errors: ValidationError[] = error!.details.map((err) => ({
       name: String(err.context?.key ?? ""),
-      value: (err.context as any)?.value as T,
+      value: (err.context as any)?.value,
       reason: err.message.replace(/"/g, ""),
     }));
 
@@ -41,7 +41,7 @@ const validateSchemaZod = <T>(schema: ZodType<T>, data: T): Result<T> => {
   if (!parsed.success) {
     const zodError = parsed.error as ZodError<T>;
 
-    const errors: ValidationError<T>[] = zodError.issues.map((err) => {
+    const errors: ValidationError[] = zodError.issues.map((err) => {
       const key = err.path && err.path.length > 0 ? err.path[0] : "";
       const name = String(key ?? "");
 
@@ -56,7 +56,7 @@ const validateSchemaZod = <T>(schema: ZodType<T>, data: T): Result<T> => {
 
       return {
         name,
-        value: valueAtKey as T | undefined,
+        value: valueAtKey,
         reason: err.message.replace(/"/g, ""),
       };
     });
