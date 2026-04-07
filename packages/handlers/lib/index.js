@@ -17,9 +17,12 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.ValidationError = exports.UnprocessableEntityError = exports.UnauthorizedError = exports.TooManyRequestsError = exports.TimeoutError = exports.TeapotError = exports.ServiceUnavailableError = exports.PreconditionFailedError = exports.NotFoundError = exports.InternalServerError = exports.GoneError = exports.ForbiddenError = exports.ConflictError = exports.BadRequestError = exports.ApiHandler = void 0;
+exports.ValidationError = exports.UnprocessableEntityError = exports.UnauthorizedError = exports.TooManyRequestsError = exports.TimeoutError = exports.TeapotError = exports.ServiceUnavailableError = exports.PreconditionFailedError = exports.NotFoundError = exports.InternalServerError = exports.GoneError = exports.ForbiddenError = exports.ConflictError = exports.BadRequestError = exports.withErrorHandler = exports.createResponse = exports.ApiHandler = void 0;
 var api_1 = require("./api");
 Object.defineProperty(exports, "ApiHandler", { enumerable: true, get: function () { return api_1.ApiHandler; } });
+var elysia_handler_1 = require("./elysia-handler");
+Object.defineProperty(exports, "createResponse", { enumerable: true, get: function () { return elysia_handler_1.createResponse; } });
+Object.defineProperty(exports, "withErrorHandler", { enumerable: true, get: function () { return elysia_handler_1.withErrorHandler; } });
 var bad_request_error_1 = require("./errors/bad-request-error");
 Object.defineProperty(exports, "BadRequestError", { enumerable: true, get: function () { return __importDefault(bad_request_error_1).default; } });
 var conflict_error_1 = require("./errors/conflict-error");

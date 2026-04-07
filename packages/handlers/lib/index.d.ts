@@ -1,4 +1,5 @@
 export { ApiHandler } from "./api";
+export { createResponse, withErrorHandler } from "./elysia-handler";
 export { default as BadRequestError } from "./errors/bad-request-error";
 export { default as ConflictError } from "./errors/conflict-error";
 export { default as ForbiddenError } from "./errors/forbidden-error";
