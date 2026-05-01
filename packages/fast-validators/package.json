@@ -1,0 +1,40 @@
+{
+  "name": "@lucas-pmelo/fast-validators",
+  "version": "0.1.0",
+  "description": "Fast Brazilian document validators (CPF, CNPJ) powered by Zig-compiled WebAssembly",
+  "author": "Lucas Melo",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "type": "module",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib",
+    "fast_validators.wasm"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucas-pmelo/utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lucas-pmelo/utils/issues"
+  },
+  "scripts": {
+    "build:wasm": "cd zig && zig build && cp zig-out/bin/fast_validators.wasm ../fast_validators.wasm",
+    "build:wasm:test": "cd zig && zig build test",
+    "test": "bun test --coverage",
+    "tsc": "tsc -p tsconfig.build.json",
+    "build": "bun run build:wasm && bun run tsc"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0",
+    "zod": "^4.0.0"
+  }
+}
