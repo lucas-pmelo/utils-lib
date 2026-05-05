@@ -1,0 +1,12 @@
+.{
+    .name = .fast_validators,
+    .version = "0.0.1",
+    .fingerprint = 0x3030e5a9bce9d0,
+    .minimum_zig_version = "0.16.0",
+    .dependencies = .{},
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
