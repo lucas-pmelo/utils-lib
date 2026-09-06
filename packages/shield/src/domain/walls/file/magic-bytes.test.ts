@@ -1,5 +1,5 @@
 import { describe, expect, it } from "bun:test";
-import { detectMimeFromMagic } from "./magic-bytes";
+import { detectMimeFromMagic } from "./magic-bytes.js";
 
 function head(...bytes: number[]): Uint8Array {
   return new Uint8Array(bytes);

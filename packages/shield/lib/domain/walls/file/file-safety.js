@@ -1,6 +1,6 @@
-import { detectMimeFromMagic } from "./magic-bytes";
-import { isMimeCompatible } from "./mime-compat";
-import { isUnsafeFilename } from "./filename";
+import { detectMimeFromMagic } from "./magic-bytes.js";
+import { isMimeCompatible } from "./mime-compat.js";
+import { isUnsafeFilename } from "./filename.js";
 const ID = "file-safety";
 function finding(path, sample) {
     return { wallId: ID, severity: "high", surface: "file", path, sample };

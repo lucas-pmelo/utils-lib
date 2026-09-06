@@ -1,4 +1,4 @@
-import type { StructuralDetector } from "../detector";
+import type { StructuralDetector } from "../detector.js";
 
 /** Always hostile as a key. There is no legitimate `__proto__` field. */
 const RESERVED_KEY = "__proto__";

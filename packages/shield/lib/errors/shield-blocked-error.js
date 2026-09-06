@@ -1,4 +1,4 @@
-import ClbError from "./clb-error";
+import ClbError from "./clb-error.js";
 export default class ShieldBlockedError extends ClbError {
     result;
     constructor(result) {

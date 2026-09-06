@@ -1,12 +1,12 @@
-import { commandInjectionWall } from "./command-injection";
-import { fileSafetyWall } from "./file/file-safety";
-import { jailbreakWall } from "./jailbreak";
-import { oversizedPayloadWall } from "./oversized-payload";
-import { pathTraversalWall } from "./path-traversal";
-import { promptInjectionWall } from "./prompt-injection";
-import { prototypePollutionWall } from "./prototype-pollution";
-import { sqliWall } from "./sqli";
-import { xssWall } from "./xss";
+import { commandInjectionWall } from "./command-injection.js";
+import { fileSafetyWall } from "./file/file-safety.js";
+import { jailbreakWall } from "./jailbreak.js";
+import { oversizedPayloadWall } from "./oversized-payload.js";
+import { pathTraversalWall } from "./path-traversal.js";
+import { promptInjectionWall } from "./prompt-injection.js";
+import { prototypePollutionWall } from "./prototype-pollution.js";
+import { sqliWall } from "./sqli.js";
+import { xssWall } from "./xss.js";
 export const defaultWalls = [
     sqliWall,
     xssWall,

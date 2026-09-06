@@ -1,8 +1,8 @@
-import { guard } from "./guard";
-import { parseBody } from "./parse-body";
-import ShieldBlockedError from "../errors/shield-blocked-error";
-import { resolveConfig } from "../domain/resolve-config";
-import { MAGIC_HEAD_BYTES } from "../domain/walls/file/magic-bytes";
+import { guard } from "./guard.js";
+import { parseBody } from "./parse-body.js";
+import ShieldBlockedError from "../errors/shield-blocked-error.js";
+import { resolveConfig } from "../domain/resolve-config.js";
+import { MAGIC_HEAD_BYTES } from "../domain/walls/file/magic-bytes.js";
 function collectParams(entries) {
     const collected = {};
     for (const [key, value] of entries) {

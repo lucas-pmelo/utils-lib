@@ -1,7 +1,7 @@
 import { describe, expect, it } from "bun:test";
-import ShieldBlockedError from "../errors/shield-blocked-error";
-import { publicApiPreset } from "../presets";
-import { withShieldLambda } from "./lambda";
+import ShieldBlockedError from "../errors/shield-blocked-error.js";
+import { publicApiPreset } from "../presets/index.js";
+import { withShieldLambda } from "./lambda.js";
 
 const ok = async () => ({ statusCode: 200 });
 const handler = withShieldLambda(publicApiPreset)(ok);

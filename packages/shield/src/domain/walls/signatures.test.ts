@@ -1,5 +1,5 @@
 import { describe, expect, it } from "bun:test";
-import { SIGNATURE_TABLE_VERSION, signatures, signaturesFor } from "./signatures";
+import { SIGNATURE_TABLE_VERSION, signatures, signaturesFor } from "./signatures.js";
 
 /**
  * A group that both contains an unbounded quantifier and is itself repeated

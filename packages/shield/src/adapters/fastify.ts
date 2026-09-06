@@ -1,6 +1,6 @@
-import { guard } from "./guard";
-import type { Preset, ShieldOverride } from "../domain/resolve-config";
-import type { FlatSurface } from "../domain/models";
+import { guard } from "./guard.js";
+import type { Preset, ShieldOverride } from "../domain/resolve-config.js";
+import type { FlatSurface } from "../domain/models.js";
 
 /** The slice of a Fastify request shield reads. */
 export interface FastifyLikeRequest {

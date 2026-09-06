@@ -1,4 +1,4 @@
-import type { Detector, DetectorContext, ShieldConfig } from "./detector";
+import type { Detector, DetectorContext, ShieldConfig } from "./detector.js";
 import type {
   Finding,
   ScanResult,
@@ -6,9 +6,9 @@ import type {
   ScannedFile,
   Severity,
   Surface,
-} from "./models";
-import { decodedVariants } from "./normalize";
-import { walk } from "./traversal/walk";
+} from "./models.js";
+import { decodedVariants } from "./normalize.js";
+import { walk } from "./traversal/walk.js";
 
 const SEVERITY_ORDER: Severity[] = ["low", "medium", "high", "critical"];
 const OVERSIZED_WALL_ID = "oversized-payload";

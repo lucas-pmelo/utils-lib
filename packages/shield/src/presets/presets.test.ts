@@ -1,7 +1,7 @@
 import { describe, expect, it } from "bun:test";
-import { defaultWalls } from "../domain/walls";
-import { batchPreset, internalApiPreset, publicApiPreset, sqsPreset } from ".";
-import type { Preset } from "../domain/resolve-config";
+import { defaultWalls } from "../domain/walls/index.js";
+import { batchPreset, internalApiPreset, publicApiPreset, sqsPreset } from "./index.js";
+import type { Preset } from "../domain/resolve-config.js";
 
 const presets: Array<[string, Preset]> = [
   ["publicApiPreset", publicApiPreset],

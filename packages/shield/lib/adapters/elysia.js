@@ -1,4 +1,4 @@
-import { guard } from "./guard";
+import { guard } from "./guard.js";
 export function withShieldElysia(preset, override) {
     return (context) => {
         guard({

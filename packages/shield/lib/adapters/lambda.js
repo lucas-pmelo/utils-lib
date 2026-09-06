@@ -1,5 +1,5 @@
-import { guard } from "./guard";
-import { parseBody } from "./parse-body";
+import { guard } from "./guard.js";
+import { parseBody } from "./parse-body.js";
 function decodeBody(event) {
     if (!event.body)
         return undefined;

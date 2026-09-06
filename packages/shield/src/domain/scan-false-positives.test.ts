@@ -1,9 +1,9 @@
 import { describe, expect, it } from "bun:test";
-import { defaultLimits } from "./traversal/limits";
-import { resolveConfig } from "./resolve-config";
-import { scan } from "./scan";
-import { defaultWalls } from "./walls";
-import type { ShieldConfig } from "./detector";
+import { defaultLimits } from "./traversal/limits.js";
+import { resolveConfig } from "./resolve-config.js";
+import { scan } from "./scan.js";
+import { defaultWalls } from "./walls/index.js";
+import type { ShieldConfig } from "./detector.js";
 
 const config: ShieldConfig = resolveConfig({ walls: defaultWalls, limits: defaultLimits });
 

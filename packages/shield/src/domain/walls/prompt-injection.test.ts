@@ -1,7 +1,7 @@
 import { describe, expect, it } from "bun:test";
-import { defaultLimits } from "../traversal/limits";
-import { promptInjectionWall } from "./prompt-injection";
-import type { DetectorContext } from "../detector";
+import { defaultLimits } from "../traversal/limits.js";
+import { promptInjectionWall } from "./prompt-injection.js";
+import type { DetectorContext } from "../detector.js";
 
 const ctx: DetectorContext = { surface: "body", path: "body.message", limits: defaultLimits };
 

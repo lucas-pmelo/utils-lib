@@ -1,7 +1,7 @@
 import { describe, expect, it } from "bun:test";
-import ShieldBlockedError from "../errors/shield-blocked-error";
-import { guard } from "./guard";
-import { publicApiPreset } from "../presets";
+import ShieldBlockedError from "../errors/shield-blocked-error.js";
+import { guard } from "./guard.js";
+import { publicApiPreset } from "../presets/index.js";
 
 describe("guard", () => {
   it("should return quietly when the surfaces are clean", () => {

@@ -1,5 +1,5 @@
-import { MAGIC_HEAD_BYTES } from "../domain/walls/file/magic-bytes";
-import type { ScannedFile } from "../domain/models";
+import { MAGIC_HEAD_BYTES } from "../domain/walls/file/magic-bytes.js";
+import type { ScannedFile } from "../domain/models.js";
 
 /** The multer upload shape, declared structurally so multer stays out of the deps. */
 export interface MulterLikeFile {

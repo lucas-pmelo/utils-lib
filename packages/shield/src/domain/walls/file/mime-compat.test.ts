@@ -1,5 +1,5 @@
 import { describe, expect, it } from "bun:test";
-import { isMimeCompatible } from "./mime-compat";
+import { isMimeCompatible } from "./mime-compat.js";
 
 describe("isMimeCompatible", () => {
   it("should accept an exact match", () => {

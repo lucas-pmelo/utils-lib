@@ -1,7 +1,7 @@
 import { describe, expect, it } from "bun:test";
-import { defaultLimits } from "../traversal/limits";
-import { xssWall } from "./xss";
-import type { DetectorContext } from "../detector";
+import { defaultLimits } from "../traversal/limits.js";
+import { xssWall } from "./xss.js";
+import type { DetectorContext } from "../detector.js";
 
 const ctx: DetectorContext = { surface: "body", path: "body.bio", limits: defaultLimits };
 

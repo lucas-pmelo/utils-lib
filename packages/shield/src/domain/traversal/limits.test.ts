@@ -1,5 +1,5 @@
 import { describe, expect, it } from "bun:test";
-import { defaultLimits } from "./limits";
+import { defaultLimits } from "./limits.js";
 
 describe("defaultLimits", () => {
   it("should expose a positive cap for every limit", () => {

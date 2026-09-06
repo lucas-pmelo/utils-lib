@@ -1,4 +1,4 @@
-import { guard } from "./guard";
+import { guard } from "./guard.js";
 export function withShieldFastify(preset, override) {
     return async (request) => {
         guard({

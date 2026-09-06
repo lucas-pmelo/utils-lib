@@ -1,5 +1,5 @@
-import { defaultWalls } from "../domain/walls";
-import type { Preset } from "../domain/resolve-config";
+import { defaultWalls } from "../domain/walls/index.js";
+import type { Preset } from "../domain/resolve-config.js";
 
 /**
  * Queue messages. Caps match the 256 KB SQS message limit; the SQS adapter only

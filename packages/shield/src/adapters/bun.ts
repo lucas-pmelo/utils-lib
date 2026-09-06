@@ -1,10 +1,10 @@
-import { guard } from "./guard";
-import { parseBody } from "./parse-body";
-import ShieldBlockedError from "../errors/shield-blocked-error";
-import { resolveConfig } from "../domain/resolve-config";
-import { MAGIC_HEAD_BYTES } from "../domain/walls/file/magic-bytes";
-import type { Preset, ShieldOverride } from "../domain/resolve-config";
-import type { FlatSurface, ScanSurfaces, ScannedFile } from "../domain/models";
+import { guard } from "./guard.js";
+import { parseBody } from "./parse-body.js";
+import ShieldBlockedError from "../errors/shield-blocked-error.js";
+import { resolveConfig } from "../domain/resolve-config.js";
+import { MAGIC_HEAD_BYTES } from "../domain/walls/file/magic-bytes.js";
+import type { Preset, ShieldOverride } from "../domain/resolve-config.js";
+import type { FlatSurface, ScanSurfaces, ScannedFile } from "../domain/models.js";
 
 /**
  * Repeated keys are kept, not collapsed.

@@ -1,5 +1,5 @@
 import { describe, expect, it } from "bun:test";
-import { isUnsafeFilename } from "./filename";
+import { isUnsafeFilename } from "./filename.js";
 
 describe("isUnsafeFilename", () => {
   it.each([

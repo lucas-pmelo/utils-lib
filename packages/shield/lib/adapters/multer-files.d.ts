@@ -1,4 +1,4 @@
-import type { ScannedFile } from "../domain/models";
+import type { ScannedFile } from "../domain/models.js";
 export interface MulterLikeFile {
     originalname: string;
     mimetype?: string;

@@ -1,7 +1,7 @@
 import { describe, expect, it } from "bun:test";
-import ShieldBlockedError from "../errors/shield-blocked-error";
-import { publicApiPreset } from "../presets";
-import { withShieldExpress } from "./express";
+import ShieldBlockedError from "../errors/shield-blocked-error.js";
+import { publicApiPreset } from "../presets/index.js";
+import { withShieldExpress } from "./express.js";
 
 const middleware = withShieldExpress(publicApiPreset);
 

@@ -1,5 +1,5 @@
 import { describe, expect, it } from "bun:test";
-import { decodedVariants } from "./normalize";
+import { decodedVariants } from "./normalize.js";
 
 describe("decodedVariants", () => {
   it("should return the value untouched when there is nothing to normalize", () => {

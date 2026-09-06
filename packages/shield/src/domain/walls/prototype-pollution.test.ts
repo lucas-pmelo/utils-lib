@@ -1,7 +1,7 @@
 import { describe, expect, it } from "bun:test";
-import { defaultLimits } from "../traversal/limits";
-import { prototypePollutionWall } from "./prototype-pollution";
-import type { DetectorContext } from "../detector";
+import { defaultLimits } from "../traversal/limits.js";
+import { prototypePollutionWall } from "./prototype-pollution.js";
+import type { DetectorContext } from "../detector.js";
 
 const ctx: DetectorContext = { surface: "body", path: "body.a", limits: defaultLimits };
 

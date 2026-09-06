@@ -1,8 +1,8 @@
-import ShieldBlockedError from "../errors/shield-blocked-error";
-import { resolveConfig } from "../domain/resolve-config";
-import { scan } from "../domain/scan";
-import type { Preset, ShieldOverride } from "../domain/resolve-config";
-import type { ScanSurfaces } from "../domain/models";
+import ShieldBlockedError from "../errors/shield-blocked-error.js";
+import { resolveConfig } from "../domain/resolve-config.js";
+import { scan } from "../domain/scan.js";
+import type { Preset, ShieldOverride } from "../domain/resolve-config.js";
+import type { ScanSurfaces } from "../domain/models.js";
 
 /**
  * The one place an adapter turns a verdict into control flow.

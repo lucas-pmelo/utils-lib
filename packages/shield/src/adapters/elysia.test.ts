@@ -1,7 +1,7 @@
 import { describe, expect, it } from "bun:test";
-import ShieldBlockedError from "../errors/shield-blocked-error";
-import { publicApiPreset } from "../presets";
-import { withShieldElysia } from "./elysia";
+import ShieldBlockedError from "../errors/shield-blocked-error.js";
+import { publicApiPreset } from "../presets/index.js";
+import { withShieldElysia } from "./elysia.js";
 
 const hook = withShieldElysia(publicApiPreset);
 

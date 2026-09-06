@@ -1,5 +1,5 @@
-import { decodedVariants } from "./normalize";
-import { walk } from "./traversal/walk";
+import { decodedVariants } from "./normalize.js";
+import { walk } from "./traversal/walk.js";
 const SEVERITY_ORDER = ["low", "medium", "high", "critical"];
 const OVERSIZED_WALL_ID = "oversized-payload";
 const SCAN_FAILURE_WALL_ID = "shield";

@@ -1,7 +1,7 @@
 import { describe, expect, it } from "bun:test";
-import { defaultLimits } from "../traversal/limits";
-import { commandInjectionWall } from "./command-injection";
-import type { DetectorContext } from "../detector";
+import { defaultLimits } from "../traversal/limits.js";
+import { commandInjectionWall } from "./command-injection.js";
+import type { DetectorContext } from "../detector.js";
 
 const ctx: DetectorContext = { surface: "query", path: "query.name", limits: defaultLimits };
 

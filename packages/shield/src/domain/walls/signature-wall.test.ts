@@ -1,7 +1,7 @@
 import { describe, expect, it } from "bun:test";
-import { defaultLimits } from "../traversal/limits";
-import { createSignatureWall } from "./signature-wall";
-import type { DetectorContext } from "../detector";
+import { defaultLimits } from "../traversal/limits.js";
+import { createSignatureWall } from "./signature-wall.js";
+import type { DetectorContext } from "../detector.js";
 
 const ctx: DetectorContext = { surface: "body", path: "body.q", limits: defaultLimits };
 

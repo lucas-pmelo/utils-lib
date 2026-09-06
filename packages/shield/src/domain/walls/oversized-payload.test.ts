@@ -1,7 +1,7 @@
 import { describe, expect, it } from "bun:test";
-import { defaultLimits } from "../traversal/limits";
-import { oversizedPayloadWall } from "./oversized-payload";
-import type { DetectorContext } from "../detector";
+import { defaultLimits } from "../traversal/limits.js";
+import { oversizedPayloadWall } from "./oversized-payload.js";
+import type { DetectorContext } from "../detector.js";
 
 function ctx(maxStringLength: number): DetectorContext {
   return { surface: "body", path: "body.a", limits: { ...defaultLimits, maxStringLength } };

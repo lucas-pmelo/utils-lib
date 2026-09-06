@@ -1,6 +1,6 @@
 import { describe, expect, it } from "bun:test";
-import ShieldBlockedError from "./shield-blocked-error";
-import type { ScanResult } from "../domain/models";
+import ShieldBlockedError from "./shield-blocked-error.js";
+import type { ScanResult } from "../domain/models.js";
 
 const result: ScanResult = {
   verdict: "block",

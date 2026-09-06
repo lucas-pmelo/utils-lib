@@ -1,4 +1,4 @@
-import { signaturesFor } from "./signatures";
+import { signaturesFor } from "./signatures.js";
 export function createSignatureWall(id, severity, surfaces) {
     const patterns = signaturesFor(id);
     return {

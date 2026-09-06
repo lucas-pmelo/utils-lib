@@ -1,7 +1,7 @@
 import { describe, expect, it } from "bun:test";
-import { defaultLimits } from "../traversal/limits";
-import { jailbreakWall } from "./jailbreak";
-import type { DetectorContext } from "../detector";
+import { defaultLimits } from "../traversal/limits.js";
+import { jailbreakWall } from "./jailbreak.js";
+import type { DetectorContext } from "../detector.js";
 
 const ctx: DetectorContext = { surface: "body", path: "body.message", limits: defaultLimits };
 

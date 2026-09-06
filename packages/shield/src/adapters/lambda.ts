@@ -1,7 +1,7 @@
-import { guard } from "./guard";
-import { parseBody } from "./parse-body";
-import type { Preset, ShieldOverride } from "../domain/resolve-config";
-import type { FlatSurface } from "../domain/models";
+import { guard } from "./guard.js";
+import { parseBody } from "./parse-body.js";
+import type { Preset, ShieldOverride } from "../domain/resolve-config.js";
+import type { FlatSurface } from "../domain/models.js";
 
 /** The slice of an API Gateway event shield reads. */
 export interface ApiGatewayLikeEvent {

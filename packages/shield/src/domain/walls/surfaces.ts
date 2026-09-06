@@ -1,4 +1,4 @@
-import type { Surface } from "../models";
+import type { Surface } from "../models.js";
 
 export const ALL_SURFACES: readonly Surface[] = ["header", "query", "path", "body", "file"];
 

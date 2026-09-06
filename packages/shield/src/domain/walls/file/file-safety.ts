@@ -1,8 +1,8 @@
-import type { FileDetector } from "../../detector";
-import type { Finding, Limits, ScannedFile } from "../../models";
-import { detectMimeFromMagic } from "./magic-bytes";
-import { isMimeCompatible } from "./mime-compat";
-import { isUnsafeFilename } from "./filename";
+import type { FileDetector } from "../../detector.js";
+import type { Finding, Limits, ScannedFile } from "../../models.js";
+import { detectMimeFromMagic } from "./magic-bytes.js";
+import { isMimeCompatible } from "./mime-compat.js";
+import { isUnsafeFilename } from "./filename.js";
 
 const ID = "file-safety";
 

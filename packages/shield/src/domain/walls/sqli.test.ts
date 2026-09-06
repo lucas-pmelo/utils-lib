@@ -1,7 +1,7 @@
 import { describe, expect, it } from "bun:test";
-import { defaultLimits } from "../traversal/limits";
-import { sqliWall } from "./sqli";
-import type { DetectorContext } from "../detector";
+import { defaultLimits } from "../traversal/limits.js";
+import { sqliWall } from "./sqli.js";
+import type { DetectorContext } from "../detector.js";
 
 const ctx: DetectorContext = { surface: "query", path: "query.q", limits: defaultLimits };
 

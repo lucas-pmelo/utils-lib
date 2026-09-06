@@ -1,5 +1,5 @@
-import type { Preset, ShieldOverride } from "../domain/resolve-config";
-import type { FlatSurface } from "../domain/models";
+import type { Preset, ShieldOverride } from "../domain/resolve-config.js";
+import type { FlatSurface } from "../domain/models.js";
 export interface ElysiaLikeContext {
     headers?: FlatSurface;
     query?: FlatSurface;

@@ -1,11 +1,11 @@
 import { describe, expect, it } from "bun:test";
-import { defaultLimits } from "./traversal/limits";
-import { resolveConfig } from "./resolve-config";
-import { scan } from "./scan";
-import { defaultWalls, sqliWall } from "./walls";
-import type { Limits, ScanSurfaces } from "./models";
-import type { ShieldConfig } from "./detector";
-import type { ValueDetector } from "./detector";
+import { defaultLimits } from "./traversal/limits.js";
+import { resolveConfig } from "./resolve-config.js";
+import { scan } from "./scan.js";
+import { defaultWalls, sqliWall } from "./walls/index.js";
+import type { Limits, ScanSurfaces } from "./models.js";
+import type { ShieldConfig } from "./detector.js";
+import type { ValueDetector } from "./detector.js";
 
 function config(limits: Partial<Limits> = {}): ShieldConfig {
   return resolveConfig({ walls: defaultWalls, limits: defaultLimits }, { limits });

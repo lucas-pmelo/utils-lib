@@ -1,5 +1,5 @@
-import type { Detector, ShieldConfig } from "./detector";
-import type { Limits } from "./models";
+import type { Detector, ShieldConfig } from "./detector.js";
+import type { Limits } from "./models.js";
 
 /** A preset is plain data: the walls it enables and the caps it applies. */
 export interface Preset {

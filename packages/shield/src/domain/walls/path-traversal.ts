@@ -1,5 +1,5 @@
-import type { ValueDetector } from "../detector";
-import { EDGE_SURFACES } from "./surfaces";
+import type { ValueDetector } from "../detector.js";
+import { EDGE_SURFACES } from "./surfaces.js";
 
 /** Plain substrings, deliberately not regex — there is nothing here to backtrack. */
 const MARKERS = ["../", "..\\", "%2e%2e", "..%2f", "..%5c", "\0"];

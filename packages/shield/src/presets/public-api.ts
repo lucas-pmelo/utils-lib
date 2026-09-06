@@ -1,5 +1,5 @@
-import { defaultWalls } from "../domain/walls";
-import type { Preset } from "../domain/resolve-config";
+import { defaultWalls } from "../domain/walls/index.js";
+import type { Preset } from "../domain/resolve-config.js";
 
 /** Hostile internet. Every wall on, caps deliberately tight. */
 export const publicApiPreset: Preset = {

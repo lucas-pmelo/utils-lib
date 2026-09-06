@@ -1,4 +1,4 @@
-import type { Limits } from "../models";
+import type { Limits } from "../models.js";
 
 /**
  * Baseline caps every preset composes from.

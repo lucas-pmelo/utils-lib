@@ -1,5 +1,5 @@
 import { describe, expect, it } from "bun:test";
-import * as shield from ".";
+import * as shield from "./index.js";
 
 describe("package barrel", () => {
   it("should export the core, the presets, the error and every adapter", () => {

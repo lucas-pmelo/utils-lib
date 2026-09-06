@@ -1,6 +1,6 @@
-import type { ValueDetector } from "../detector";
-import type { Severity, Surface } from "../models";
-import { signaturesFor } from "./signatures";
+import type { ValueDetector } from "../detector.js";
+import type { Severity, Surface } from "../models.js";
+import { signaturesFor } from "./signatures.js";
 
 /**
  * Builds a value wall backed by the signature table.

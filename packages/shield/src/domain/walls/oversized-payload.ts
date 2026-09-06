@@ -1,4 +1,4 @@
-import type { StructuralDetector } from "../detector";
+import type { StructuralDetector } from "../detector.js";
 
 /**
  * Reports payloads that cannot be scanned safely.

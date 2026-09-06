@@ -1,7 +1,7 @@
 import { describe, expect, it } from "bun:test";
-import { defaultLimits } from "../../traversal/limits";
-import { fileSafetyWall } from "./file-safety";
-import type { Limits, ScannedFile } from "../../models";
+import { defaultLimits } from "../../traversal/limits.js";
+import { fileSafetyWall } from "./file-safety.js";
+import type { Limits, ScannedFile } from "../../models.js";
 
 const PNG_HEAD = new Uint8Array([0x89, 0x50, 0x4e, 0x47, 0x0d, 0x0a, 0x1a, 0x0a]);
 const MZ_HEAD = new Uint8Array([0x4d, 0x5a, 0x90, 0x00]);

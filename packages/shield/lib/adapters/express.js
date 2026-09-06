@@ -1,5 +1,5 @@
-import { guard } from "./guard";
-import { toScannedFiles } from "./multer-files";
+import { guard } from "./guard.js";
+import { toScannedFiles } from "./multer-files.js";
 export function withShieldExpress(preset, override) {
     return (req, _res, next) => {
         guard({

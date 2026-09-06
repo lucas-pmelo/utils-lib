@@ -1,7 +1,7 @@
 import { describe, expect, it } from "bun:test";
-import { defaultLimits } from "./limits";
-import { walk, type WalkVisitor } from "./walk";
-import type { Limits } from "../models";
+import { defaultLimits } from "./limits.js";
+import { walk, type WalkVisitor } from "./walk.js";
+import type { Limits } from "../models.js";
 
 function collect() {
   const strings: Array<{ value: string; path: string }> = [];

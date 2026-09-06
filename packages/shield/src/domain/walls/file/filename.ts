@@ -1,4 +1,4 @@
-import { hasTraversal } from "../path-traversal";
+import { hasTraversal } from "../path-traversal.js";
 
 /**
  * Extensions that execute. Matched at the end of the name, which covers both

@@ -1,4 +1,4 @@
-import { MAGIC_HEAD_BYTES } from "../domain/walls/file/magic-bytes";
+import { MAGIC_HEAD_BYTES } from "../domain/walls/file/magic-bytes.js";
 function toScannedFile(file) {
     return {
         filename: file.originalname,

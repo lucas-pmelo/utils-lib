@@ -1,4 +1,4 @@
-import type { Finding, Limits, ScannedFile, Severity, Surface } from "./models";
+import type { Finding, Limits, ScannedFile, Severity, Surface } from "./models.js";
 export interface DetectorContext {
     surface: Surface;
     path: string;

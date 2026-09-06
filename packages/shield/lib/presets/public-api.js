@@ -1,4 +1,4 @@
-import { defaultWalls } from "../domain/walls";
+import { defaultWalls } from "../domain/walls/index.js";
 export const publicApiPreset = {
     walls: defaultWalls,
     limits: {

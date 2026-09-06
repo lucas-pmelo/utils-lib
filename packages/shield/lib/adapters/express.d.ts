@@ -1,6 +1,6 @@
-import { type MulterLikeFile } from "./multer-files";
-import type { Preset, ShieldOverride } from "../domain/resolve-config";
-import type { FlatSurface } from "../domain/models";
+import { type MulterLikeFile } from "./multer-files.js";
+import type { Preset, ShieldOverride } from "../domain/resolve-config.js";
+import type { FlatSurface } from "../domain/models.js";
 export interface ExpressLikeRequest {
     headers?: FlatSurface;
     query?: FlatSurface;

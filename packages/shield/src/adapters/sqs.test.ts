@@ -1,7 +1,7 @@
 import { describe, expect, it } from "bun:test";
-import ShieldBlockedError from "../errors/shield-blocked-error";
-import { sqsPreset } from "../presets";
-import { withShieldSqs } from "./sqs";
+import ShieldBlockedError from "../errors/shield-blocked-error.js";
+import { sqsPreset } from "../presets/index.js";
+import { withShieldSqs } from "./sqs.js";
 
 const handler = withShieldSqs(sqsPreset)(async (record) => record.messageId);
 

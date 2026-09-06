@@ -1,6 +1,6 @@
-import { guard } from "./guard";
-import type { Preset, ShieldOverride } from "../domain/resolve-config";
-import type { FlatSurface } from "../domain/models";
+import { guard } from "./guard.js";
+import type { Preset, ShieldOverride } from "../domain/resolve-config.js";
+import type { FlatSurface } from "../domain/models.js";
 
 /** The slice of an Elysia context shield reads. Structural, so Elysia stays out of the deps. */
 export interface ElysiaLikeContext {

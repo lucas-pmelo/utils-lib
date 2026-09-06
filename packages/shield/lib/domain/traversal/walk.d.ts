@@ -1,4 +1,4 @@
-import type { Limits } from "../models";
+import type { Limits } from "../models.js";
 export interface WalkVisitor {
     onNode(key: string, value: unknown, path: string): void;
     onLeafString(value: string, path: string): void;

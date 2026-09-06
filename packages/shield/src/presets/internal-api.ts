@@ -1,5 +1,5 @@
-import { defaultWalls } from "../domain/walls";
-import type { Preset } from "../domain/resolve-config";
+import { defaultWalls } from "../domain/walls/index.js";
+import type { Preset } from "../domain/resolve-config.js";
 
 /** Trusted callers. Same walls, roomier caps. */
 export const internalApiPreset: Preset = {

@@ -1,4 +1,4 @@
-import type { Preset, ShieldOverride } from "../domain/resolve-config";
+import type { Preset, ShieldOverride } from "../domain/resolve-config.js";
 export interface SqsLikeRecord {
     messageId: string;
     body: string;

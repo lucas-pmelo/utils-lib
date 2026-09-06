@@ -1,4 +1,4 @@
-import { EDGE_SURFACES } from "./surfaces";
+import { EDGE_SURFACES } from "./surfaces.js";
 const MARKERS = ["../", "..\\", "%2e%2e", "..%2f", "..%5c", "\0"];
 export function hasTraversal(value) {
     const haystack = value.toLowerCase();

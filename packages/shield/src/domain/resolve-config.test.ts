@@ -1,9 +1,9 @@
 import { describe, expect, it } from "bun:test";
-import { defaultLimits } from "./traversal/limits";
-import { resolveConfig } from "./resolve-config";
-import { sqliWall, xssWall } from "./walls";
-import type { Preset } from "./resolve-config";
-import type { ValueDetector } from "./detector";
+import { defaultLimits } from "./traversal/limits.js";
+import { resolveConfig } from "./resolve-config.js";
+import { sqliWall, xssWall } from "./walls/index.js";
+import type { Preset } from "./resolve-config.js";
+import type { ValueDetector } from "./detector.js";
 
 const preset: Preset = { walls: [sqliWall, xssWall], limits: defaultLimits };
 

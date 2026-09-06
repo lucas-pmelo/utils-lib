@@ -1,7 +1,7 @@
-export { scan } from "./domain/scan";
-export { resolveConfig } from "./domain/resolve-config";
-export { defaultLimits } from "./domain/traversal/limits";
-export { defaultWalls, llmWalls } from "./domain/walls";
+export { scan } from "./domain/scan.js";
+export { resolveConfig } from "./domain/resolve-config.js";
+export { defaultLimits } from "./domain/traversal/limits.js";
+export { defaultWalls, llmWalls } from "./domain/walls/index.js";
 export {
   commandInjectionWall,
   fileSafetyWall,
@@ -12,13 +12,13 @@ export {
   prototypePollutionWall,
   sqliWall,
   xssWall,
-} from "./domain/walls";
-export { SIGNATURE_TABLE_VERSION, signatures, signaturesFor } from "./domain/walls/signatures";
-export { createSignatureWall } from "./domain/walls/signature-wall";
+} from "./domain/walls/index.js";
+export { SIGNATURE_TABLE_VERSION, signatures, signaturesFor } from "./domain/walls/signatures.js";
+export { createSignatureWall } from "./domain/walls/signature-wall.js";
 
-export { batchPreset, internalApiPreset, publicApiPreset, sqsPreset } from "./presets";
+export { batchPreset, internalApiPreset, publicApiPreset, sqsPreset } from "./presets/index.js";
 
-export { default as ShieldBlockedError } from "./errors/shield-blocked-error";
+export { default as ShieldBlockedError } from "./errors/shield-blocked-error.js";
 
 export {
   withShieldBun,
@@ -27,9 +27,9 @@ export {
   withShieldFastify,
   withShieldLambda,
   withShieldSqs,
-} from "./adapters";
+} from "./adapters/index.js";
 
-export type { Preset, ShieldOverride } from "./domain/resolve-config";
+export type { Preset, ShieldOverride } from "./domain/resolve-config.js";
 export type {
   Detector,
   DetectorContext,
@@ -37,7 +37,7 @@ export type {
   ShieldConfig,
   StructuralDetector,
   ValueDetector,
-} from "./domain/detector";
+} from "./domain/detector.js";
 export type {
   FlatSurface,
   Finding,
@@ -48,4 +48,4 @@ export type {
   Severity,
   Surface,
   Verdict,
-} from "./domain/models";
+} from "./domain/models.js";

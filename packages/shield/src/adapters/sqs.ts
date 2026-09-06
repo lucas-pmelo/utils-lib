@@ -1,6 +1,6 @@
-import { guard } from "./guard";
-import { parseBody } from "./parse-body";
-import type { Preset, ShieldOverride } from "../domain/resolve-config";
+import { guard } from "./guard.js";
+import { parseBody } from "./parse-body.js";
+import type { Preset, ShieldOverride } from "../domain/resolve-config.js";
 
 /** The slice of an SQS record shield reads. */
 export interface SqsLikeRecord {

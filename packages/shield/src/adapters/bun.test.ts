@@ -1,6 +1,6 @@
 import { describe, expect, it } from "bun:test";
-import { publicApiPreset } from "../presets";
-import { withShieldBun } from "./bun";
+import { publicApiPreset } from "../presets/index.js";
+import { withShieldBun } from "./bun.js";
 
 const ok = () => new Response("ok");
 const handler = withShieldBun(publicApiPreset)(ok);

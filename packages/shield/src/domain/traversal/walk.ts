@@ -1,4 +1,4 @@
-import type { Limits } from "../models";
+import type { Limits } from "../models.js";
 
 export interface WalkVisitor {
   /** Called for every visited value, including the root (whose key is ""). */

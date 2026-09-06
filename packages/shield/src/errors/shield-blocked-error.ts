@@ -1,5 +1,5 @@
-import ClbError from "./clb-error";
-import type { ScanResult } from "../domain/models";
+import ClbError from "./clb-error.js";
+import type { ScanResult } from "../domain/models.js";
 
 /**
  * Thrown by every adapter when a scan returns `block`.
