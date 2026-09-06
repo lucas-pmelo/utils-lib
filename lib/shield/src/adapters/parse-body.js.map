@@ -1,0 +1,1 @@
+{"version":3,"file":"parse-body.js","sourceRoot":"","sources":["../../../../packages/shield/src/adapters/parse-body.ts"],"names":[],"mappings":";;AAMA,8BAMC;AAND,SAAgB,SAAS,CAAC,IAAY;IACpC,IAAI,CAAC;QACH,OAAO,IAAI,CAAC,KAAK,CAAC,IAAI,CAAC,CAAC;IAC1B,CAAC;IAAC,WAAM,CAAC;QACP,OAAO,IAAI,CAAC;IACd,CAAC;AACH,CAAC"}

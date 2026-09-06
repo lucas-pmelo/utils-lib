@@ -1,0 +1,1 @@
+{"version":3,"file":"too-many-requests-error.js","sourceRoot":"","sources":["../../../../packages/lambda-handlers/src/errors/too-many-requests-error.ts"],"names":[],"mappings":";;;;;AAAA,4DAAmC;AAEnC,MAAqB,oBAAqB,SAAQ,mBAAQ;IACxD,YAAY,UAAkB,sBAAsB;QAClD,KAAK,CACH;YACE,MAAM,EAAE,OAAO;SAChB,EACD,GAAG,CACJ,CAAC;IACJ,CAAC;CACF;AATD,uCASC"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"batch.js","sourceRoot":"","sources":["../../../../packages/shield/src/presets/batch.ts"],"names":[],"mappings":";;;AAAA,2CAA+C;AAIlC,QAAA,WAAW,GAAW;IACjC,KAAK,EAAE,oBAAY;IACnB,MAAM,EAAE;QACN,YAAY,EAAE,QAAU;QACxB,eAAe,EAAE,KAAM;QACvB,QAAQ,EAAE,EAAE;QACZ,QAAQ,EAAE,MAAO;QACjB,QAAQ,EAAE,EAAE;QACZ,YAAY,EAAE,QAAU;KACzB;CACF,CAAC"}

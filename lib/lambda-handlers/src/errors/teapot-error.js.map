@@ -1,0 +1,1 @@
+{"version":3,"file":"teapot-error.js","sourceRoot":"","sources":["../../../../packages/lambda-handlers/src/errors/teapot-error.ts"],"names":[],"mappings":";;;;;AAAA,4DAAmC;AAEnC,MAAqB,WAAY,SAAQ,mBAAQ;IAC/C,YAAY,UAAkB,aAAa;QACzC,KAAK,CACH;YACE,MAAM,EAAE,OAAO;SAChB,EACD,GAAG,CACJ,CAAC;IACJ,CAAC;CACF;AATD,8BASC"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"internal-api.js","sourceRoot":"","sources":["../../../../packages/shield/src/presets/internal-api.ts"],"names":[],"mappings":";;;AAAA,2CAA+C;AAIlC,QAAA,iBAAiB,GAAW;IACvC,KAAK,EAAE,oBAAY;IACnB,MAAM,EAAE;QACN,YAAY,EAAE,OAAS;QACvB,eAAe,EAAE,KAAM;QACvB,QAAQ,EAAE,EAAE;QACZ,QAAQ,EAAE,KAAM;QAChB,QAAQ,EAAE,EAAE;QACZ,YAAY,EAAE,QAAU;KACzB;CACF,CAAC"}

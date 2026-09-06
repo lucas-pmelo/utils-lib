@@ -1,0 +1,36 @@
+{
+  "name": "@lucas-pmelo/shield",
+  "version": "0.1.0",
+  "description": "Framework-agnostic request scanner that blocks web and LLM attack patterns at the edge",
+  "author": "Lucas Melo",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "type": "module",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucas-pmelo/utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lucas-pmelo/utils/issues"
+  },
+  "scripts": {
+    "test": "bun test --coverage",
+    "tsc": "tsc -p tsconfig.build.json",
+    "build": "bun run tsc"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

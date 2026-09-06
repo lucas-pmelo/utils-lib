@@ -1,0 +1,1 @@
+{"version":3,"file":"internal-api.js","sourceRoot":"","sources":["../../src/presets/internal-api.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,YAAY,EAAE,MAAM,iBAAiB,CAAC;AAI/C,MAAM,CAAC,MAAM,iBAAiB,GAAW;IACvC,KAAK,EAAE,YAAY;IACnB,MAAM,EAAE;QACN,YAAY,EAAE,SAAS;QACvB,eAAe,EAAE,MAAM;QACvB,QAAQ,EAAE,EAAE;QACZ,QAAQ,EAAE,MAAM;QAChB,QAAQ,EAAE,EAAE;QACZ,YAAY,EAAE,UAAU;KACzB;CACF,CAAC"}

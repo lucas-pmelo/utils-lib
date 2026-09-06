@@ -1,0 +1,1 @@
+{"version":3,"file":"sqs.js","sourceRoot":"","sources":["../../../../packages/shield/src/presets/sqs.ts"],"names":[],"mappings":";;;AAAA,2CAA+C;AAOlC,QAAA,SAAS,GAAW;IAC/B,KAAK,EAAE,oBAAY;IACnB,MAAM,EAAE;QACN,YAAY,EAAE,MAAO;QACrB,eAAe,EAAE,KAAM;QACvB,QAAQ,EAAE,EAAE;QACZ,QAAQ,EAAE,KAAM;QAChB,QAAQ,EAAE,CAAC;QACX,YAAY,EAAE,MAAO;KACtB;CACF,CAAC"}

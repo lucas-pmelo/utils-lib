@@ -1,0 +1,1 @@
+{"version":3,"file":"unauthorized-error.js","sourceRoot":"","sources":["../../../../packages/lambda-handlers/src/errors/unauthorized-error.ts"],"names":[],"mappings":";;;;;AAAA,4DAAmC;AAEnC,MAAqB,iBAAkB,SAAQ,mBAAQ;IACrD,YAAY,UAAkB,mBAAmB;QAC/C,KAAK,CACH;YACE,MAAM,EAAE,OAAO;SAChB,EACD,GAAG,CACJ,CAAC;IACJ,CAAC;CACF;AATD,oCASC"}

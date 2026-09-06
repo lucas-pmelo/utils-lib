@@ -1,0 +1,13 @@
+import type { Detector } from "../detector";
+import { commandInjectionWall } from "./command-injection";
+import { fileSafetyWall } from "./file/file-safety";
+import { jailbreakWall } from "./jailbreak";
+import { oversizedPayloadWall } from "./oversized-payload";
+import { pathTraversalWall } from "./path-traversal";
+import { promptInjectionWall } from "./prompt-injection";
+import { prototypePollutionWall } from "./prototype-pollution";
+import { sqliWall } from "./sqli";
+import { xssWall } from "./xss";
+export declare const defaultWalls: readonly Detector[];
+export declare const llmWalls: readonly Detector[];
+export { commandInjectionWall, fileSafetyWall, jailbreakWall, oversizedPayloadWall, pathTraversalWall, promptInjectionWall, prototypePollutionWall, sqliWall, xssWall, };
